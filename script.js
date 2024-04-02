@@ -7,13 +7,13 @@
 
 document.getElementById('shareImage').onclick = function() {
   // The URL to the image you want to share
-  var imageUrl = "https://meeting-god-ina.vercel.app/images/encontro.jpeg"; 
+  const imageUrl = "https://meeting-god-ina.vercel.app/images/encontro.jpeg"; 
   // Custom message you want to appear in the chat
-  var customMessage = "I found this event really interesting and thought you might too!"; 
+  const customMessage = "Descobri algo transformador este fim de semana e estou ansioso(a) para compartilhar. Acesse o link e descubra?"; 
   // Encoding the message and the image URL to ensure it's formatted correctly for a URL
-  var encodedMessage = encodeURIComponent(customMessage + " " + imageUrl);
+  const encodedMessage = encodeURIComponent(customMessage + " " + imageUrl);
   // Creating the WhatsApp share link with your custom message
-  var whatsappUrl = `https://wa.me/?text=${encodedMessage}`;
+  const whatsappUrl = `https://wa.me/?text=${encodedMessage}`;
 
   // Opening WhatsApp in a new tab/window with the share message ready to send
   window.open(whatsappUrl, '_blank').focus();
