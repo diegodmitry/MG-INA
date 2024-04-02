@@ -1,6 +1,6 @@
 document.getElementById('shareImage').onclick = function() {
   // The URL to the image you want to share
-  const imageUrl = "https://meeting-god-ina.vercel.app/"; 
+  const imageUrl = "https://encontro-ina-aveiro.vercel.app/"; 
   
   // Custom message you want to appear in the chat
   const customMessage = "Descobri algo transformador este fim de semana e estou ansioso(a) para compartilhar. Acesse o link e descubra!"; 
