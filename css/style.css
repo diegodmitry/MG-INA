@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #003b31; /* Dark teal - adjusted based on image */
+  --secondary-color: #00BFA5; /* Light teal - adjusted based on image */
+  --text-color: #FFFFFF; /* White */
+  --text-secondary-color: #424242; /* Dark grey */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  text-align: center; /* Centering the content */
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Full viewport height */
+}
+
+#shareImage {
+  width: 100%; /* Responsive width */
+  max-width: 600px; /* Maximum width */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer;
+  border: 5px solid var(--secondary-color); /* Border color based on image */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adding a subtle shadow */
+}
