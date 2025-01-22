@@ -8,7 +8,7 @@ document.getElementById('shareImage').onclick = function() {
   const moradaGoogleMaps = "https://maps.app.goo.gl/wXumu4iN51E3Thn96"
 
   // Encoding the message and the image URL to ensure it's formatted correctly for a URL
-  const encodedMessage = encodeURIComponent(customMessage + " " + imageUrl + "\n" +"Morada: " + moradaGoogleMaps);
+  const encodedMessage = encodeURIComponent(customMessage + " " + imageUrl + "\n\n" +"Morada: " + moradaGoogleMaps);
   
   // Creating the WhatsApp share link with your custom message
   const whatsappUrl = `https://wa.me/?text=${encodedMessage}`;
